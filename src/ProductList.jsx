@@ -6,7 +6,7 @@ import Cart from './CartItem';
 
 function ProductList({ onHomeClick }) {
     const [addedToCart, setAddedToCart] = useState({});
-     const dispatch = useDispatch();
+    const dispatch = useDispatch();
     const totalItems = useSelector(selectTotalItems);
 
     const [showCart, setShowCart] = useState(false);
